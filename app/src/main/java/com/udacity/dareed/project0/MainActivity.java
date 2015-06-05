@@ -47,26 +47,26 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
     public void spotifyEvent(View view) {
-        this.showToast("This button will launch my Spotify Streamer app!");
+        this.showToast(getString(R.string.spotify_toast));
     }
 
     public void scoresEvent(View view) {
-        this.showToast("This button will launch my Scores app!");
+        this.showToast(getString(R.string.scores_toast));
     }
 
     public void libraryEvent(View view) {
-        this.showToast("This button will launch my Library app!");
+        this.showToast(getString(R.string.library_toast));
     }
 
     public void biggerEvent(View view) {
-        this.showToast("This button will launch my Build it Bigger app!");
+        this.showToast(getString(R.string.bigger_toast));
     }
 
     public void xyzEvent(View view) {
-        this.showToast("This button will launch my XYZ reader app!");
+        this.showToast(getString(R.string.xyz_toast));
     }
 
     public void capstoneEvent(View view) {
-        this.showToast("This button will launch my Capstone project!");
+        this.showToast(getString(R.string.capstone_toast));
     }
 }
