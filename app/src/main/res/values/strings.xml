@@ -8,4 +8,10 @@
     <string name="bigger_toast">This button will launch my Build it Bigger app!</string>
     <string name="xyz_toast">This button will launch my XYZ reader app!</string>
     <string name="capstone_toast">This button will launch my Capstone project!</string>
+    <string name="btn_tag_spotify">Spotify Streamer</string>
+    <string name="btn_tag_scores">Scores App</string>
+    <string name="btn_tag_library">Library App</string>
+    <string name="btn_tag_bigger">Build It bigger</string>
+    <string name="btn_tag_xyz">XYZ Reader</string>
+    <string name="btn_tag_capstone">Capstone: My Own App</string>
 </resources>

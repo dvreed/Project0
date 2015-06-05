@@ -25,7 +25,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Spotify Streamer"
+            android:text="@string/btn_tag_spotify"
             android:id="@+id/btn_spotify"
             android:layout_below="@+id/title"
             android:layout_marginTop="31dp"
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Scores App"
+            android:text="@string/btn_tag_scores"
             android:id="@+id/btn_scores"
             android:layout_below="@+id/btn_spotify"
             android:layout_alignLeft="@+id/title"
@@ -52,7 +52,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Library App"
+            android:text="@string/btn_tag_library"
             android:id="@+id/btn_library"
             android:layout_below="@+id/btn_scores"
             android:layout_alignLeft="@+id/title"
@@ -65,7 +65,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Build It bigger"
+            android:text="@string/btn_tag_bigger"
             android:id="@+id/btn_bigger"
             android:layout_below="@+id/btn_library"
             android:layout_alignLeft="@+id/title"
@@ -78,7 +78,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="XYZ Reader"
+            android:text="@string/btn_tag_xyz"
             android:id="@+id/btn_reader"
             android:layout_below="@+id/btn_bigger"
             android:layout_alignLeft="@+id/title"
@@ -91,7 +91,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capstone: My Own App"
+            android:text="@string/btn_tag_capstone"
             android:id="@+id/btn_capstone"
             android:layout_below="@+id/btn_reader"
             android:layout_alignRight="@+id/title"
