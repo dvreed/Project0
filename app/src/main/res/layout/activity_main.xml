@@ -29,9 +29,7 @@
             android:id="@+id/btn_spotify"
             android:layout_below="@+id/title"
             android:layout_marginTop="31dp"
-            android:layout_alignLeft="@+id/title"
             android:layout_alignStart="@+id/title"
-            android:layout_alignRight="@+id/title"
             android:layout_alignEnd="@+id/title"
             android:backgroundTint="#ffc13d"
             android:onClick="spotifyEvent"/>
@@ -42,9 +40,7 @@
             android:text="@string/btn_tag_scores"
             android:id="@+id/btn_scores"
             android:layout_below="@+id/btn_spotify"
-            android:layout_alignLeft="@+id/title"
             android:layout_alignStart="@+id/title"
-            android:layout_alignRight="@+id/title"
             android:layout_alignEnd="@+id/title"
             android:backgroundTint="#ffc13d"
             android:onClick="scoresEvent"/>
@@ -55,9 +51,7 @@
             android:text="@string/btn_tag_library"
             android:id="@+id/btn_library"
             android:layout_below="@+id/btn_scores"
-            android:layout_alignLeft="@+id/title"
             android:layout_alignStart="@+id/title"
-            android:layout_alignRight="@+id/title"
             android:layout_alignEnd="@+id/title"
             android:backgroundTint="#ffc13d"
             android:onClick="libraryEvent"/>
@@ -68,9 +62,7 @@
             android:text="@string/btn_tag_bigger"
             android:id="@+id/btn_bigger"
             android:layout_below="@+id/btn_library"
-            android:layout_alignLeft="@+id/title"
             android:layout_alignStart="@+id/title"
-            android:layout_alignRight="@+id/title"
             android:layout_alignEnd="@+id/title"
             android:backgroundTint="#ffc13d"
             android:onClick="biggerEvent"/>
@@ -81,9 +73,7 @@
             android:text="@string/btn_tag_xyz"
             android:id="@+id/btn_reader"
             android:layout_below="@+id/btn_bigger"
-            android:layout_alignLeft="@+id/title"
             android:layout_alignStart="@+id/title"
-            android:layout_alignRight="@+id/title"
             android:layout_alignEnd="@+id/title"
             android:backgroundTint="#ffc13d"
             android:onClick="xyzEvent"/>
@@ -94,9 +84,7 @@
             android:text="@string/btn_tag_capstone"
             android:id="@+id/btn_capstone"
             android:layout_below="@+id/btn_reader"
-            android:layout_alignRight="@+id/title"
             android:layout_alignEnd="@+id/title"
-            android:layout_alignLeft="@+id/title"
             android:layout_alignStart="@+id/title"
             android:backgroundTint="#ff632d"
             android:onClick="capstoneEvent"/>
